@@ -12,6 +12,8 @@ import PricingSection from './Pages/PricingSection/PricingSection'
 import MixedSection from './Pages/MixedSection/MixedSection'
 import DemoSubjectCards from './Pages/SubjectCards/DemoSubjectCards'
 import SubjectCard from './Pages/SubjectCards/SubjectCard'
+import DemoSeoSettings from './Pages/SeoSettings/DemoSeoSettings'
+import CategoriesSection2 from './Pages/CategoriesSection2/CategoriesSection2'
 
 
 
@@ -21,15 +23,16 @@ function App() {
     <>
     {/* <DemoValuePropositionSection/> */}
 
-        {/* <MixedSection/> */}
-        {/* <PricingSection/>
+        <MixedSection/>
+        {/* <PricingSection/>*/}
+        {/* <FAQSection/> */}
+        {/* <CategoriesSection2/> */}
         <CategoriesSection/>
-        <FAQSection/>*/}
-        <SubjectCard/>
-        <DemoSubjectCards/>
-        <ValuePropositionSection/>
-        <CtaSection/>
-        {/* <DemoSeoSettings/> */}
+        {/* <SubjectCard/> */}
+        {/* <DemoSubjectCards/> */}
+        {/* <ValuePropositionSection/> */}
+        {/* <CtaSection/> */}
+        <DemoSeoSettings/>
         {/* <SeoSettings/> */}
         {/* <TitleSection/> */}
     </>

@@ -1,77 +1,76 @@
-import React, { useState } from 'react'
+import React, {useState} from 'react'
 import InputField from '../../components/InputField/InputField';
 import Toggle from '../../components/Toggle/Toggle';
 import Button from '../../components/Button/Button';
 import ImageUploader from '../../components/ImageUploader/ImageUploader';
 
-const CategoriesSection = () => {
+const CategoriesSection2 = () => {
     const [toggleEnabled, setToggleEnabled] = useState(true);
-    const [formData, setFormData] = useState({
-        title: "",
-        subtitle: "",
-        badge: "",
-        mainTitle: "",
-        mainSubtitle: "",
-    });
-
-    const handleChange = (e) => {
-        setFormData({
-            ...formData,
-            [e.target.name]: e.target.value,
+        const [formData, setFormData] = useState({
+            title: "",
+            subtitle: "",
+            badge: "",
+            mainTitle: "",
+            mainSubtitle: "",
         });
-    };
 
-    const maxForms = 12;
-    const maxAvatars = 1;
+        const handleChange = (e) => {
+            setFormData({
+                ...formData,
+                [e.target.name]: e.target.value,
+            });
+        };
 
-    const [forms, setForms] = useState([]);
+        const maxForms = 12;
+        const maxAvatars = 1;
 
-    const handleAddForm = () => {
-    if (forms.length < maxForms) {
-        setForms([...forms, { title: '', description: '', altText: '', avatars: [] }]);
-    }
-    };
+        const [forms, setForms] = useState([]);
 
-    const handleChangeForm = (index, e) => {
-    const newForms = [...forms];
-    newForms[index][e.target.name] = e.target.value;
-    setForms(newForms);
-    };
-
-    const handleAvatarUpload = (formIndex, event) => {
-    const file = event.target.files[0];
-    if (file) {
-        const reader = new FileReader();
-        reader.onload = (e) => {
-        const newForms = [...forms];
-        if (newForms[formIndex].avatars.length < maxAvatars) {
-            newForms[formIndex].avatars.push(e.target.result);
-            setForms(newForms);
+        const handleAddForm = () => {
+        if (forms.length < maxForms) {
+            setForms([...forms, { title: '', description: '', altText: '', avatars: [] }]);
         }
         };
-        reader.readAsDataURL(file);
-    }
-    };
 
-    const removeAvatar = (formIndex, avatarIndex) => {
-    const newForms = [...forms];
-    newForms[formIndex].avatars = newForms[formIndex].avatars.filter((_, i) => i !== avatarIndex);
-    setForms(newForms);
-    };
+        const handleChangeForm = (index, e) => {
+        const newForms = [...forms];
+        newForms[index][e.target.name] = e.target.value;
+        setForms(newForms);
+        };
 
-    const SaveSVG = (
-    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M10 6.66667V13.3333M6.66667 10H13.3333M6.5 17.5H13.5C14.9001 17.5 15.6002 17.5 16.135 17.2275C16.6054 16.9878 16.9878 16.6054 17.2275 16.135C17.5 15.6002 17.5 14.9001 17.5 13.5V6.5C17.5 5.09987 17.5 4.3998 17.2275 3.86502C16.9878 3.39462 16.6054 3.01217 16.135 2.77248C15.6002 2.5 14.9001 2.5 13.5 2.5H6.5C5.09987 2.5 4.3998 2.5 3.86502 2.77248C3.39462 3.01217 3.01217 3.39462 2.77248 3.86502C2.5 4.3998 2.5 5.09987 2.5 6.5V13.5C2.5 14.9001 2.5 15.6002 2.77248 16.135C3.01217 16.6054 3.39462 16.9878 3.86502 17.2275C4.3998 17.5 5.09987 17.5 6.5 17.5Z" stroke="#344054" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
-    );
+        const handleAvatarUpload = (formIndex, event) => {
+        const file = event.target.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = (e) => {
+            const newForms = [...forms];
+            if (newForms[formIndex].avatars.length < maxAvatars) {
+                newForms[formIndex].avatars.push(e.target.result);
+                setForms(newForms);
+            }
+            };
+            reader.readAsDataURL(file);
+        }
+        };
 
-    // image
-    const [ogImage, setOgImage] = useState(null);
+        const removeAvatar = (formIndex, avatarIndex) => {
+        const newForms = [...forms];
+        newForms[formIndex].avatars = newForms[formIndex].avatars.filter((_, i) => i !== avatarIndex);
+        setForms(newForms);
+        };
 
+        const SaveSVG = (
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 6.66667V13.3333M6.66667 10H13.3333M6.5 17.5H13.5C14.9001 17.5 15.6002 17.5 16.135 17.2275C16.6054 16.9878 16.9878 16.6054 17.2275 16.135C17.5 15.6002 17.5 14.9001 17.5 13.5V6.5C17.5 5.09987 17.5 4.3998 17.2275 3.86502C16.9878 3.39462 16.6054 3.01217 16.135 2.77248C15.6002 2.5 14.9001 2.5 13.5 2.5H6.5C5.09987 2.5 4.3998 2.5 3.86502 2.77248C3.39462 3.01217 3.01217 3.39462 2.77248 3.86502C2.5 4.3998 2.5 5.09987 2.5 6.5V13.5C2.5 14.9001 2.5 15.6002 2.77248 16.135C3.01217 16.6054 3.39462 16.9878 3.86502 17.2275C4.3998 17.5 5.09987 17.5 6.5 17.5Z" stroke="#344054" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+        );
+
+        // image
+        const [ogImage, setOgImage] = useState(null);
   return (
     <div className='w-[720px] bg-white rounded-lg shadow-md text-black border-1 border-[#D0D5DD]'>
       <h2 className="text-lg text-[#101828] px-[16px] py-[22px] font-semibold mb-4 border-b-1 border-[#EAECF0] flex items-center justify-between">
-        Categories Section 1
+        Categories Section 2
         <Toggle enabled={toggleEnabled} onToggle={() => setToggleEnabled(!toggleEnabled)} />
       </h2>
 
@@ -263,4 +262,4 @@ const CategoriesSection = () => {
   )
 }
 
-export default CategoriesSection
+export default CategoriesSection2
