@@ -7,10 +7,12 @@ import CtaSection from './Pages/CtaSection/CtaSection'
 import ValuePropositionSection from './Pages/ValuePropositionSection/ValuePropositionSection'
 import DemoValuePropositionSection from './Pages/DemoValuePropositionSection/DemoValuePropositionSection'
 import FAQSection from './Pages/FAQSection/FAQSection'
-import SubjectCards from './Pages/SubjectCards/SubjectCards'
+import SubjectCards from './Pages/SubjectCards/DemoSubjectCards'
 import PricingSection from './Pages/PricingSection/PricingSection'
 import MixedSection from './Pages/MixedSection/MixedSection'
-import DemoSeoSettings from './Pages/SeoSettings/DemoSeoSettings'
+import DemoSubjectCards from './Pages/SubjectCards/DemoSubjectCards'
+import SubjectCard from './Pages/SubjectCards/SubjectCard'
+
 
 
 function App() {
@@ -23,7 +25,8 @@ function App() {
         {/* <PricingSection/>
         <CategoriesSection/>
         <FAQSection/>*/}
-        <SubjectCards/>
+        <SubjectCard/>
+        <DemoSubjectCards/>
         <ValuePropositionSection/>
         <CtaSection/>
         {/* <DemoSeoSettings/> */}
