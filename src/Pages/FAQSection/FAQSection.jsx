@@ -9,6 +9,9 @@ function FAQSection() {
         subtitle: "",
         ctaText: "",
         ctaLink: "",
+        sectionSubtitle: "",
+        sectionCtaText: "",
+        sectionCtaLink: "",
       });
 
       const handleChange = (e) => {
@@ -19,7 +22,6 @@ function FAQSection() {
       };
 
       const maxForms = 2;
-      const maxAvatars = 2;
 
       const [forms, setForms] = useState([]);
 
@@ -32,27 +34,6 @@ function FAQSection() {
       const handleChangeForm = (index, e) => {
         const newForms = [...forms];
         newForms[index][e.target.name] = e.target.value;
-        setForms(newForms);
-      };
-
-      const handleAvatarUpload = (formIndex, event) => {
-        const file = event.target.files[0];
-        if (file) {
-          const reader = new FileReader();
-          reader.onload = (e) => {
-            const newForms = [...forms];
-            if (newForms[formIndex].avatars.length < maxAvatars) {
-              newForms[formIndex].avatars.push(e.target.result);
-              setForms(newForms);
-            }
-          };
-          reader.readAsDataURL(file);
-        }
-      };
-
-      const removeAvatar = (formIndex, avatarIndex) => {
-        const newForms = [...forms];
-        newForms[formIndex].avatars = newForms[formIndex].avatars.filter((_, i) => i !== avatarIndex);
         setForms(newForms);
       };
 
@@ -163,23 +144,23 @@ function FAQSection() {
         <div className="space-y-[20px]">
             <InputField
             label="Subtitle"
-            name="subtitle"
+            name="sectionSubtitle"
             placeholder="Enter CTA text here"
-            value={formData.subtitle}
+            value={formData.sectionSubtitle}
             onChange={handleChange}
           />
           <InputField
             label="CTA Text"
-            name="ctaText"
+            name="sectionCtaText"
             placeholder="Enter CTA text here"
-            value={formData.ctaText}
+            value={formData.sectionCtaText}
             onChange={handleChange}
           />
           <InputField
             label="CTA Link"
-            name="ctaLink"
+            name="sectionCtaLink"
             placeholder="Enter CTA URL here"
-            value={formData.ctaLink}
+            value={formData.sectionCtaLink}
             onChange={handleChange}
           />
         </div>
