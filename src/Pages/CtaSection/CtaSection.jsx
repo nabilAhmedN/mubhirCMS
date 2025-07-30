@@ -78,15 +78,15 @@ const CtaSection = () => {
         <div className="mt-2">
           <div className="flex space-x-4 mt-2">
             <ImageUploader
-                id="section-image"
+                id="ogt-image"
                 label="Section Image"
                 image={sectionImage}
                 setImage={setSectionImage}
-                labelClassName="text-lg text-purple-700"
+                // labelClassName="text-lg text-purple-700"
                 containerClassName="w-[256px] h-[144px]"
-                dropText='<span style="color: #section-image; font-size: 14px; font-weight: 600">Click to upload</span>  or drag and drop'
+                dropText='<span style="color: #521749; font-size: 14px; font-weight: 600">Click to upload</span>  or drag and drop'
                 maxDimensions={{ width: 1000, height: 1000 }}
-            />
+                />
           </div>
         </div>
         <div className="mt-4">
