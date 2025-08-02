@@ -365,7 +365,7 @@ const DemoSubjectCards = () => {
   return (
     <div className="w-[720px] bg-white rounded-lg shadow-md text-black border-1 border-[#D0D5DD]">
       <h2 className="text-lg text-[#101828] px-[16px] py-[22px] font-semibold mb-4 border-b-1 border-[#EAECF0]">
-        Subject Cards
+        Subject Cards Demo
       </h2>
 
       <div className="mb-6 px-6">
