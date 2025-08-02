@@ -116,27 +116,27 @@
 //                         className="hidden"
 //                       />
 //                       <div className="text-xs text-[#475467] font-normal flex flex-col items-center">
-//                         <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-//     <g filter="url(#filter0_d_4309_114441)">
-//         <path d="M10 1.5H34C38.1421 1.5 41.5 4.85786 41.5 9V33C41.5 37.1421 38.1421 40.5 34 40.5H10C5.85786 40.5 2.5 37.1421 2.5 33V9C2.5 4.85786 5.85786 1.5 10 1.5Z" stroke="#EAECF0" shape-rendering="crispEdges"/>
-//         <path d="M21.9998 21L22.5891 20.4107C22.2637 20.0853 21.736 20.0853 21.4106 20.4107L21.9998 21ZM21.1665 28.5C21.1665 28.9602 21.5396 29.3333 21.9998 29.3333C22.4601 29.3333 22.8332 28.9602 22.8332 28.5H21.1665ZM25.3049 16.5814L26.0229 16.1584L26.0229 16.1584L25.3049 16.5814ZM14.8986 24.7495C15.2235 25.0755 15.7511 25.0765 16.0771 24.7516C16.4032 24.4268 16.4041 23.8991 16.0793 23.5731L14.8986 24.7495ZM18.6665 24.3333L19.2558 24.9226L22.5891 21.5893L21.9998 21L21.4106 20.4107L18.0772 23.7441L18.6665 24.3333ZM21.9998 21L21.4106 21.5893L24.7439 24.9226L25.3332 24.3333L25.9224 23.7441L22.5891 20.4107L21.9998 21ZM21.9998 21H21.1665V28.5H21.9998H22.8332V21H21.9998ZM13.6665 19.75H14.4998C14.4998 16.7585 16.925 14.3333 19.9165 14.3333V13.5V12.6667C16.0045 12.6667 12.8332 15.838 12.8332 19.75H13.6665ZM19.9165 13.5V14.3333C21.9048 14.3333 23.6439 15.4041 24.587 17.0045L25.3049 16.5814L26.0229 16.1584C24.7926 14.0706 22.5189 12.6667 19.9165 12.6667V13.5ZM25.7498 16.8333V17.6667C27.8209 17.6667 29.4998 19.3456 29.4998 21.4167H30.3332H31.1665C31.1665 18.4251 28.7414 16 25.7498 16V16.8333ZM30.3332 21.4167H29.4998C29.4998 22.5809 28.9703 23.6207 28.1359 24.3098L28.6665 24.9524L29.1972 25.5949C30.3985 24.6027 31.1665 23.099 31.1665 21.4167H30.3332ZM15.489 24.1613L16.0793 23.5731C15.1023 22.5925 14.4998 21.2424 14.4998 19.75H13.6665H12.8332C12.8332 21.7011 13.6231 23.4693 14.8986 24.7495L15.489 24.1613ZM25.3049 16.5814L24.587 17.0045C24.833 17.4219 25.2801 17.6667 25.7498 17.6667V16.8333V16C25.8554 16 25.9618 16.0547 26.0229 16.1584L25.3049 16.5814Z" fill="#344054"/>
-//     </g>
-//     <defs>
-//         <filter id="filter0_d_4309_114441" x="0" y="0" width="44" height="44" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-//         <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-//         <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-//         <feOffset dy="1"/>
-//         <feGaussianBlur stdDeviation="1"/>
-//         <feComposite in2="hardAlpha" operator="out"/>
-//         <feColorMatrix type="matrix" values="0 0 0 0 0.0627451 0 0 0 0 0.0941176 0 0 0 0 0.156863 0 0 0 0.05 0"/>
-//         <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_4309_114441"/>
-//         <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_4309_114441" result="shape"/>
-//         </filter>
-//     </defs>
-//                         </svg>
-//                         <span className="text-[#521749] text-sm font-semibold">Click to upload</span>
-//                         or drag and drop
-//                         <br /> (Max: 256x156px)
+    //                     <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+    // <g filter="url(#filter0_d_4309_114441)">
+    //     <path d="M10 1.5H34C38.1421 1.5 41.5 4.85786 41.5 9V33C41.5 37.1421 38.1421 40.5 34 40.5H10C5.85786 40.5 2.5 37.1421 2.5 33V9C2.5 4.85786 5.85786 1.5 10 1.5Z" stroke="#EAECF0" shape-rendering="crispEdges"/>
+    //     <path d="M21.9998 21L22.5891 20.4107C22.2637 20.0853 21.736 20.0853 21.4106 20.4107L21.9998 21ZM21.1665 28.5C21.1665 28.9602 21.5396 29.3333 21.9998 29.3333C22.4601 29.3333 22.8332 28.9602 22.8332 28.5H21.1665ZM25.3049 16.5814L26.0229 16.1584L26.0229 16.1584L25.3049 16.5814ZM14.8986 24.7495C15.2235 25.0755 15.7511 25.0765 16.0771 24.7516C16.4032 24.4268 16.4041 23.8991 16.0793 23.5731L14.8986 24.7495ZM18.6665 24.3333L19.2558 24.9226L22.5891 21.5893L21.9998 21L21.4106 20.4107L18.0772 23.7441L18.6665 24.3333ZM21.9998 21L21.4106 21.5893L24.7439 24.9226L25.3332 24.3333L25.9224 23.7441L22.5891 20.4107L21.9998 21ZM21.9998 21H21.1665V28.5H21.9998H22.8332V21H21.9998ZM13.6665 19.75H14.4998C14.4998 16.7585 16.925 14.3333 19.9165 14.3333V13.5V12.6667C16.0045 12.6667 12.8332 15.838 12.8332 19.75H13.6665ZM19.9165 13.5V14.3333C21.9048 14.3333 23.6439 15.4041 24.587 17.0045L25.3049 16.5814L26.0229 16.1584C24.7926 14.0706 22.5189 12.6667 19.9165 12.6667V13.5ZM25.7498 16.8333V17.6667C27.8209 17.6667 29.4998 19.3456 29.4998 21.4167H30.3332H31.1665C31.1665 18.4251 28.7414 16 25.7498 16V16.8333ZM30.3332 21.4167H29.4998C29.4998 22.5809 28.9703 23.6207 28.1359 24.3098L28.6665 24.9524L29.1972 25.5949C30.3985 24.6027 31.1665 23.099 31.1665 21.4167H30.3332ZM15.489 24.1613L16.0793 23.5731C15.1023 22.5925 14.4998 21.2424 14.4998 19.75H13.6665H12.8332C12.8332 21.7011 13.6231 23.4693 14.8986 24.7495L15.489 24.1613ZM25.3049 16.5814L24.587 17.0045C24.833 17.4219 25.2801 17.6667 25.7498 17.6667V16.8333V16C25.8554 16 25.9618 16.0547 26.0229 16.1584L25.3049 16.5814Z" fill="#344054"/>
+    // </g>
+    // <defs>
+    //     <filter id="filter0_d_4309_114441" x="0" y="0" width="44" height="44" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    //     <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    //     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+    //     <feOffset dy="1"/>
+    //     <feGaussianBlur stdDeviation="1"/>
+    //     <feComposite in2="hardAlpha" operator="out"/>
+    //     <feColorMatrix type="matrix" values="0 0 0 0 0.0627451 0 0 0 0 0.0941176 0 0 0 0 0.156863 0 0 0 0.05 0"/>
+    //     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_4309_114441"/>
+    //     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_4309_114441" result="shape"/>
+    //     </filter>
+    // </defs>
+    //                     </svg>
+    //                     <span className="text-[#521749] text-sm font-semibold">Click to upload</span>
+    //                     or drag and drop
+    //                     <br /> (Max: 256x156px)
 //                       </div>
 //                     </label>
 //                   )}
@@ -151,9 +151,9 @@
 //                         onClick={() => removeAvatar(index, avatarIndex)}
 //                         className="absolute top-[8px] right-[8px] cursor-pointer flex items-center justify-center"
 //                       >
-//                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-//                           <path d="M15 9L9 15M9 9L15 15M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="#182230" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
-//                         </svg>
+                        // <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        //   <path d="M15 9L9 15M9 9L15 15M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="#182230" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
+                        // </svg>
 //                       </button>
 //                     </div>
 //                   ))}
@@ -343,32 +343,17 @@ const ValuePropositionSection = () => {
               <div className="p-4 flex justify-between items-center bg-[#EAECF0]">
                 <button className="text-gray-600 text-xl font-bold" type="button">
                   {/* Drag handle or icon */}
-                  <svg
-                    width="20"
-                    height="20"
-                    viewBox="0 0 20 20"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M10 5C10.4604 5 10.8333 4.627 10.8333 4.16667C10.8333 3.70633 10.4604 3.33333 10 3.33333C9.53967 3.33333 9.16667 3.70633 9.16667 4.16667C9.16667 4.627 9.53967 5 10 5Z"
-                      stroke="#344054"
-                      strokeWidth="1.66667"
-                      strokeLinejoin="round"
-                    />
-                    <path
-                      d="M10 10.8333C10.4604 10.8333 10.8333 10.4603 10.8333 10C10.8333 9.53967 10.4604 9.16667 10 9.16667C9.53967 9.16667 9.16667 9.53967 9.16667 10C9.16667 10.4603 9.53967 10.8333 10 10.8333Z"
-                      stroke="#344054"
-                      strokeWidth="1.66667"
-                      strokeLinejoin="round"
-                    />
-                    <path
-                      d="M10 16.6667C10.4604 16.6667 10.8333 16.2937 10.8333 15.8333C10.8333 15.373 10.4604 15 10 15C9.53967 15 9.16667 15.373 9.16667 15.8333C9.16667 16.2937 9.53967 16.6667 10 16.6667Z"
-                      stroke="#344054"
-                      strokeWidth="1.66667"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.0002 4.99992C10.4604 4.99992 10.8335 4.62682 10.8335 4.16659C10.8335 3.70635 10.4604 3.33325 10.0002 3.33325C9.53993 3.33325 9.16683 3.70635 9.16683 4.16659C9.16683 4.62682 9.53993 4.99992 10.0002 4.99992Z" stroke="#344054" stroke-width="1.66667" stroke-linejoin="round"/>
+                    <path d="M10.0002 10.8333C10.4604 10.8333 10.8335 10.4602 10.8335 9.99992C10.8335 9.53968 10.4604 9.16659 10.0002 9.16659C9.53993 9.16659 9.16683 9.53968 9.16683 9.99992C9.16683 10.4602 9.53993 10.8333 10.0002 10.8333Z" stroke="#344054" stroke-width="1.66667" stroke-linejoin="round"/>
+                    <path d="M10.0002 16.6666C10.4604 16.6666 10.8335 16.2935 10.8335 15.8333C10.8335 15.373 10.4604 14.9999 10.0002 14.9999C9.53993 14.9999 9.16683 15.373 9.16683 15.8333C9.16683 16.2935 9.53993 16.6666 10.0002 16.6666Z" stroke="#344054" stroke-width="1.66667" stroke-linejoin="round"/>
+                    <path d="M15.8335 4.99992C16.2937 4.99992 16.6668 4.62682 16.6668 4.16659C16.6668 3.70635 16.2937 3.33325 15.8335 3.33325C15.3733 3.33325 15.0002 3.70635 15.0002 4.16659C15.0002 4.62682 15.3733 4.99992 15.8335 4.99992Z" stroke="#344054" stroke-width="1.66667" stroke-linejoin="round"/>
+                    <path d="M15.8335 10.8333C16.2937 10.8333 16.6668 10.4602 16.6668 9.99992C16.6668 9.53968 16.2937 9.16659 15.8335 9.16659C15.3733 9.16659 15.0002 9.53968 15.0002 9.99992C15.0002 10.4602 15.3733 10.8333 15.8335 10.8333Z" stroke="#344054" stroke-width="1.66667" stroke-linejoin="round"/>
+                    <path d="M15.8335 16.6666C16.2937 16.6666 16.6668 16.2935 16.6668 15.8333C16.6668 15.373 16.2937 14.9999 15.8335 14.9999C15.3733 14.9999 15.0002 15.373 15.0002 15.8333C15.0002 16.2935 15.3733 16.6666 15.8335 16.6666Z" stroke="#344054" stroke-width="1.66667" stroke-linejoin="round"/>
+                    <path d="M4.16683 4.99992C4.62707 4.99992 5.00016 4.62682 5.00016 4.16659C5.00016 3.70635 4.62707 3.33325 4.16683 3.33325C3.70659 3.33325 3.3335 3.70635 3.3335 4.16659C3.3335 4.62682 3.70659 4.99992 4.16683 4.99992Z" stroke="#344054" stroke-width="1.66667" stroke-linejoin="round"/>
+                    <path d="M4.16683 10.8333C4.62707 10.8333 5.00016 10.4602 5.00016 9.99992C5.00016 9.53968 4.62707 9.16659 4.16683 9.16659C3.70659 9.16659 3.3335 9.53968 3.3335 9.99992C3.3335 10.4602 3.70659 10.8333 4.16683 10.8333Z" stroke="#344054" stroke-width="1.66667" stroke-linejoin="round"/>
+                    <path d="M4.16683 16.6666C4.62707 16.6666 5.00016 16.2935 5.00016 15.8333C5.00016 15.373 4.62707 14.9999 4.16683 14.9999C3.70659 14.9999 3.3335 15.373 3.3335 15.8333C3.3335 16.2935 3.70659 16.6666 4.16683 16.6666Z" stroke="#344054" stroke-width="1.66667" stroke-linejoin="round"/>
+                    </svg>
                 </button>
                 <button
                   type="button"
@@ -379,7 +364,9 @@ const ValuePropositionSection = () => {
                   }}
                   className="text-gray-600 text-2xl font-bold cursor-pointer"
                 >
-                  ×
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 9L9 15M9 9L15 15M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="#182230" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
                 </button>
               </div>
 
@@ -395,9 +382,27 @@ const ValuePropositionSection = () => {
                         className="hidden"
                       />
                       <div className="text-xs text-[#475467] font-normal flex flex-col items-center text-center">
-                        <span>Click to upload</span>
-                        <span>or drag and drop</span>
-                        <span>(Max: 256x156px)</span>
+                        <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d_4309_114441)">
+                            <path d="M10 1.5H34C38.1421 1.5 41.5 4.85786 41.5 9V33C41.5 37.1421 38.1421 40.5 34 40.5H10C5.85786 40.5 2.5 37.1421 2.5 33V9C2.5 4.85786 5.85786 1.5 10 1.5Z" stroke="#EAECF0" shape-rendering="crispEdges"/>
+                            <path d="M21.9998 21L22.5891 20.4107C22.2637 20.0853 21.736 20.0853 21.4106 20.4107L21.9998 21ZM21.1665 28.5C21.1665 28.9602 21.5396 29.3333 21.9998 29.3333C22.4601 29.3333 22.8332 28.9602 22.8332 28.5H21.1665ZM25.3049 16.5814L26.0229 16.1584L26.0229 16.1584L25.3049 16.5814ZM14.8986 24.7495C15.2235 25.0755 15.7511 25.0765 16.0771 24.7516C16.4032 24.4268 16.4041 23.8991 16.0793 23.5731L14.8986 24.7495ZM18.6665 24.3333L19.2558 24.9226L22.5891 21.5893L21.9998 21L21.4106 20.4107L18.0772 23.7441L18.6665 24.3333ZM21.9998 21L21.4106 21.5893L24.7439 24.9226L25.3332 24.3333L25.9224 23.7441L22.5891 20.4107L21.9998 21ZM21.9998 21H21.1665V28.5H21.9998H22.8332V21H21.9998ZM13.6665 19.75H14.4998C14.4998 16.7585 16.925 14.3333 19.9165 14.3333V13.5V12.6667C16.0045 12.6667 12.8332 15.838 12.8332 19.75H13.6665ZM19.9165 13.5V14.3333C21.9048 14.3333 23.6439 15.4041 24.587 17.0045L25.3049 16.5814L26.0229 16.1584C24.7926 14.0706 22.5189 12.6667 19.9165 12.6667V13.5ZM25.7498 16.8333V17.6667C27.8209 17.6667 29.4998 19.3456 29.4998 21.4167H30.3332H31.1665C31.1665 18.4251 28.7414 16 25.7498 16V16.8333ZM30.3332 21.4167H29.4998C29.4998 22.5809 28.9703 23.6207 28.1359 24.3098L28.6665 24.9524L29.1972 25.5949C30.3985 24.6027 31.1665 23.099 31.1665 21.4167H30.3332ZM15.489 24.1613L16.0793 23.5731C15.1023 22.5925 14.4998 21.2424 14.4998 19.75H13.6665H12.8332C12.8332 21.7011 13.6231 23.4693 14.8986 24.7495L15.489 24.1613ZM25.3049 16.5814L24.587 17.0045C24.833 17.4219 25.2801 17.6667 25.7498 17.6667V16.8333V16C25.8554 16 25.9618 16.0547 26.0229 16.1584L25.3049 16.5814Z" fill="#344054"/>
+                        </g>
+                        <defs>
+                            <filter id="filter0_d_4309_114441" x="0" y="0" width="44" height="44" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                            <feOffset dy="1"/>
+                            <feGaussianBlur stdDeviation="1"/>
+                            <feComposite in2="hardAlpha" operator="out"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0.0627451 0 0 0 0 0.0941176 0 0 0 0 0.156863 0 0 0 0.05 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_4309_114441"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_4309_114441" result="shape"/>
+                            </filter>
+                        </defs>
+                        </svg>
+                        <span className="text-[#521749] text-sm font-semibold">Click to upload</span>
+                        or drag and drop
+                        <br /> (Max: 256x156px)
                       </div>
                     </label>
                   )}
@@ -411,9 +416,11 @@ const ValuePropositionSection = () => {
                       <button
                         type="button"
                         onClick={() => removeAvatar(index, avatarIndex)}
-                        className="absolute top-2 right-2 cursor-pointer bg-white rounded-full p-1 shadow"
+                        className="absolute top-[8px] right-[8px] cursor-pointer flex items-center justify-center"
                       >
-                        ×
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M15 9L9 15M9 9L15 15M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="#182230" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
+                        </svg>
                       </button>
                     </div>
                   ))}
